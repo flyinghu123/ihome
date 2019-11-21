@@ -8,6 +8,7 @@ from flask import Flask
 from flask_session import Session
 from flask_wtf import CSRFProtect
 from config import config_map
+from ihome.utils.commons import ReConverter
 import logging
 from logging.handlers import RotatingFileHandler
 from flask_sqlalchemy import SQLAlchemy
@@ -63,10 +64,16 @@ def create_app(config_name):
     # 为flask补充csrf防护
     CSRFProtect(app)
 
+    # 为flask添加自定义转换器
+    app.url_map.converters['re'] = ReConverter
+
     # 注册蓝图
     # 推迟导入, 避免之后视图函数导入db时出现循环导包
     from ihome import api_1_0
-
     app.register_blueprint(api_1_0.api, url_prefix='/api/v1.0')
+
+    # 注册提供静态文件的蓝图
+    from ihome import web_html
+    app.register_blueprint(web_html.html)
 
     return app
