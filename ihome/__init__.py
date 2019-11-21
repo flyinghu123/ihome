@@ -25,7 +25,7 @@ redis_store = None
 
 # 日志
 # 设置日志的记录等级
-logging.basicConfig(level=logging.DEBUG)  # 调试debug级
+logging.basicConfig(level=logging.ERROR)  # 调试debug级
 # 创建日志记录器,  指明日志的保存的路径, 每个日志的文件的最大大小, 保存日志文件个数上限
 file_log_handler = RotatingFileHandler(filename='logs/log', maxBytes=1024 * 1024 * 10, backupCount=10)
 # 创建日志记录的格式        日志等级 输入日志信息的文件名  行数  日志信息

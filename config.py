@@ -34,11 +34,11 @@ class DevlopmentConfig(Config):
 
 class ProductionConfig(Config):
     '''生产环境配置信息'''
-    pass
+    DEBUG = False
 
 
 # 映射关系
 config_map = {
     'product': ProductionConfig,
-    'develop': DevlopmentConfig 
+    'develop': DevlopmentConfig
 }
