@@ -5,7 +5,8 @@
 # @Link    : http://www.flyinghu.cn/
 # @Version : $Id$
 
-from flask import current_app, Blueprint
+from flask import current_app, Blueprint, make_response
+from flask_wtf import csrf
 
 
 html = Blueprint('web_html', __name__)
@@ -23,4 +24,13 @@ def get_html(html_file_name):
         html_file_name = 'html/' + html_file_name
 
     # flask提供的返回的静态文件的方法
-    return current_app.send_static_file(html_file_name)
+    # return current_app.send_static_file(html_file_name)
+
+    # 生成一个token
+    csrf_token = csrf.generate_csrf()
+
+    response = make_response(current_app.send_static_file(html_file_name))
+    # 向cookies添加csrf_token
+    response.set_cookie('csrf_token', csrf_token)
+
+    return response

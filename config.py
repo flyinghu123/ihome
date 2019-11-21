@@ -10,7 +10,7 @@ import redis
 
 class Config(object):
     '''配置信息'''
-    SERECT_KEY = 'XJKLJKL*()++*&.DKFJALKJljfkljasdfj254325'
+    SECRET_KEY = 'XJKLJKL*()++*&.DKFJALKJljfkljasdfj254325'
 
     # 数据库
     SQLALCHEMY_DATABASE_URI = 'mysql+mysqlconnector://root:1152598046@localhost:3306/ihome?charset=utf8mb4'
@@ -22,7 +22,7 @@ class Config(object):
 
     # flask-session配置
     SESSION_TYPE = 'redis'
-    SESSION_REDIS = redis.StrictRedis(host=REDIS_HOST, port=REDIS_PORT)
+    SESSION_REDIS = redis.StrictRedis(host=REDIS_HOST, port=REDIS_PORT, password='1152598046')
     SESSION_USE_SIGNER = True  # 对cookie中session_id进行隐藏处理
     PERMANENT_SESSION_LIFETIME = 86400  # session数据有效期, 单位秒
 
