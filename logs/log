@@ -300,3 +300,141 @@ INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 21:04:55] "[37mGET /static/plu
 INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 21:04:55] "[37mGET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 200 -
 INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 21:05:20] "[36mGET /register.html HTTP/1.1[0m" 304 -
 INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 21:05:27] "[36mGET /register.html HTTP/1.1[0m" 304 -
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 783-899-693
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:14:19] "[36mGET /register.html HTTP/1.1[0m" 304 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:14:21] "[36mGET /register.html HTTP/1.1[0m" 304 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:14:24] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:14:24] "[37mGET /static/plugins/swiper/css/swiper.min.css HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:14:24] "[37mGET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:14:24] "[37mGET /static/css/ihome/index.css HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:14:24] "[37mGET /static/images/home01.jpg HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:14:24] "[37mGET /static/images/home02.jpg HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:14:24] "[37mGET /static/images/home03.jpg HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:14:24] "[37mGET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:14:24] "[37mGET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:14:24] "[37mGET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:14:24] "[37mGET /static/js/template.js HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:14:24] "[37mGET /static/js/ihome/index.js HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:14:37] "[33mGET /api/v1.0/image_code/215445 HTTP/1.1[0m" 404 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:14:47] "[33mGET /api/v1.0/image_codes/215445 HTTP/1.1[0m" 404 -
+INFO _internal.py:122  * Detected change in 'D:\\QQPCmgr\\Desktop\\°®¼Ò×â·¿\\ihome\\api_1_0\\__init__.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 783-899-693
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:15:44] "[37mGET /api/v1.0/image_codes/215445 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:15:47] "[37mGET /api/v1.0/image_codes/215445 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:15:47] "[37mGET /api/v1.0/image_codes/215445 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:16:53] "[37mGET /api/v1.0/image_codes/215445 HTTP/1.1[0m" 200 -
+INFO _internal.py:122  * Detected change in 'D:\\QQPCmgr\\Desktop\\°®¼Ò×â·¿\\ihome\\api_1_0\\verify_code.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 783-899-693
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:45:21] "[37mGET /register.html HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:45:21] "[37mGET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:45:21] "[37mGET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:45:21] "[37mGET /static/css/reset.css HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:45:21] "[37mGET /static/css/ihome/main.css HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:45:21] "[37mGET /static/css/ihome/register.css HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:45:21] "[37mGET /static/images/logo@128x59.png HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:45:21] "[37mGET /static/js/jquery.min.js HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:45:21] "[37mGET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:45:21] "[37mGET /static/js/ihome/register.js HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:45:21] "[37mGET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:45:21] "[37mGET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:45:21] "[37mGET /api/v1.0/image_codes/6149a218-a97d-4bb8-8511-e249e66cbf35 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:45:23] "[37mGET /api/v1.0/image_codes/ecf56315-451d-4f34-bd6d-8ef8659ce613 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:45:24] "[37mGET /api/v1.0/image_codes/6ce4adf0-4638-4e93-b1cc-c0d0fc064cc4 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:45:24] "[37mGET /api/v1.0/image_codes/db90df8d-cf4e-42b4-bf34-79d4dd104ce9 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:45:25] "[37mGET /api/v1.0/image_codes/222d7470-859e-42bb-8da8-390a4b5797b8 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:45:25] "[37mGET /api/v1.0/image_codes/38f55fb0-cd30-476b-af54-3a1f96add547 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:45:25] "[37mGET /api/v1.0/image_codes/82fcb345-7f84-46df-bbd3-4e41e8afb76f HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:45:25] "[37mGET /api/v1.0/image_codes/8917463f-c4bd-443b-b216-6bb061a13ac2 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:45:25] "[37mGET /api/v1.0/image_codes/f7d4c0a5-9f75-436b-b4f0-4585a4ce5d45 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:45:26] "[37mGET /api/v1.0/image_codes/c548417b-fd30-4d05-8cb1-b286d6c6e428 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:45:26] "[37mGET /api/v1.0/image_codes/8ebcbada-5f68-49f5-aa60-958150bb8dc4 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:45:26] "[37mGET /api/v1.0/image_codes/fed6acd6-0885-4f01-b8ca-a264470e207b HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:45:27] "[37mGET /api/v1.0/image_codes/fde9eb77-4108-4cda-837f-a8b363008ffc HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:45:27] "[37mGET /api/v1.0/image_codes/11f3a8fc-7f19-4189-b126-9bcff732d53e HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:45:27] "[37mGET /api/v1.0/image_codes/8c792666-e0ab-4a64-babe-49a3a2169e8e HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:45:28] "[37mGET /api/v1.0/image_codes/28b40a45-957c-40c3-b069-78f818439aad HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:45:28] "[37mGET /api/v1.0/image_codes/04ffda4c-059c-40f5-abee-44e94a86e7a2 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:45:28] "[37mGET /api/v1.0/image_codes/b74fe110-6145-4a50-8965-ab4c06a588bd HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:45:28] "[37mGET /api/v1.0/image_codes/91ba2c4c-206e-4e5f-ac69-df0324dc8a1f HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:45:28] "[37mGET /api/v1.0/image_codes/28fe5dce-4abb-4992-a2ea-173ac93aca58 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:45:29] "[37mGET /api/v1.0/image_codes/ae2e9093-8abc-44b0-9575-3082124d5e9b HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:45:29] "[37mGET /api/v1.0/image_codes/925158a6-b518-46f2-8d62-6facb64e279e HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:45:29] "[37mGET /api/v1.0/image_codes/996075a4-92b0-40e5-901f-72f00bfcdcd5 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:45:29] "[37mGET /api/v1.0/image_codes/0c58c61f-dd0a-40fa-91f5-d8fb0f146a72 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:45:29] "[37mGET /api/v1.0/image_codes/7b4772e4-5fb1-4182-a8fd-4fc02f4e93fd HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:45:30] "[37mGET /api/v1.0/image_codes/ea47d4c0-4c9f-4063-bbba-bad112fb1c13 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:45:30] "[37mGET /api/v1.0/image_codes/82d9d6af-26a1-4b78-982a-3480ad94359b HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:45:30] "[37mGET /api/v1.0/image_codes/0c5f0b8e-1991-4765-b990-30df4a22f3f2 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:45:30] "[37mGET /api/v1.0/image_codes/593918b2-a12b-4693-91b6-9bade5e8211c HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:45:31] "[37mGET /api/v1.0/image_codes/df509272-b920-42da-954b-b40cd3ff540c HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:45:31] "[37mGET /api/v1.0/image_codes/71a0f471-860c-488c-8d88-6b6d53e08dcd HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:45:31] "[37mGET /api/v1.0/image_codes/89a050ac-cf98-4fb5-b236-1c4891cba06c HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:45:31] "[37mGET /api/v1.0/image_codes/f91cd827-3db1-482e-b225-f269ee629beb HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:45:31] "[37mGET /api/v1.0/image_codes/6a318d40-daab-4307-b7d2-1b8f0e4eb9ed HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:45:31] "[37mGET /api/v1.0/image_codes/594dd921-72ec-4c19-ac46-dd7b245e06ce HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:45:34] "[37mGET /api/v1.0/image_codes/355b7e21-0288-46d6-a2a1-8ea255283419 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:45:34] "[37mGET /api/v1.0/image_codes/588faa51-111f-41a7-a29a-fd41e563be46 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:45:34] "[37mGET /api/v1.0/image_codes/650510fe-49e6-4fa8-a608-4958d2449527 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:45:35] "[37mGET /api/v1.0/image_codes/f335362f-5ef0-4c5a-8c67-a89db4b32b39 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:45:35] "[37mGET /api/v1.0/image_codes/a9cbcad8-14f7-4443-afa8-b81fa3bfcff6 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:45:35] "[37mGET /api/v1.0/image_codes/5b05d6fc-232e-4308-93f1-58aea4fe1455 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:45:35] "[37mGET /api/v1.0/image_codes/5e32bf06-2962-42bb-9632-e586390f2ca6 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:45:35] "[37mGET /api/v1.0/image_codes/b9272910-ec1b-4e2f-aca5-54e6fa8e4fdc HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:45:35] "[37mGET /api/v1.0/image_codes/0757323f-1a80-400a-9fea-71c443106d14 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:45:36] "[37mGET /api/v1.0/image_codes/e87aed0d-acb0-4407-b9df-59773fa0eb15 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:45:38] "[37mGET /api/v1.0/image_codes/53920510-2ffd-497d-9a1e-14e57edf2dd5 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:45:38] "[37mGET /api/v1.0/image_codes/366cdcf6-b7f9-4ead-a553-c8f76fb26004 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:45:38] "[37mGET /api/v1.0/image_codes/310585b2-79e5-40c4-83ee-9a2ab9ae2864 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:45:38] "[37mGET /api/v1.0/image_codes/ce573932-23b0-4cfa-91c3-49e4988b6a62 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:45:39] "[37mGET /api/v1.0/image_codes/276f8a35-ca1b-4f37-940a-db8df381ff06 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:45:39] "[37mGET /api/v1.0/image_codes/12b6e554-1d16-4370-b066-bb2597ab7a50 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:45:40] "[37mGET /api/v1.0/image_codes/e357030a-04f0-4aba-a0a5-835b296f3f15 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:45:41] "[37mGET /api/v1.0/image_codes/0af500a2-c422-4b30-946b-8004b56ea8b4 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:45:41] "[37mGET /api/v1.0/image_codes/4940677d-c940-4fae-95cf-1b93e7f60c22 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:45:41] "[37mGET /api/v1.0/image_codes/61c0de16-631c-4d56-b503-ab072d747a61 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:45:41] "[37mGET /api/v1.0/image_codes/ad852814-4609-4012-ae2c-9f7bc990bba7 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:45:41] "[37mGET /api/v1.0/image_codes/4a7090f2-594a-4c7b-984f-104ed48632a0 HTTP/1.1[0m" 200 -
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 783-899-693
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:47:58] "[37mGET /register.html HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:47:58] "[37mGET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:47:58] "[37mGET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:47:58] "[37mGET /static/css/reset.css HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:47:58] "[37mGET /static/css/ihome/main.css HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:47:58] "[37mGET /static/css/ihome/register.css HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:47:58] "[37mGET /static/images/logo@128x59.png HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:47:58] "[37mGET /static/js/jquery.min.js HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:47:58] "[37mGET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:47:58] "[37mGET /static/js/ihome/register.js HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:47:59] "[37mGET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:47:59] "[37mGET /api/v1.0/image_codes/e6a7dccc-5b10-469e-8f62-e746f3aa86e3 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:47:59] "[37mGET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:48:10] "[37mGET /api/v1.0/image_codes/3a47fedd-c376-4a12-873b-e2950ddbaada HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:48:11] "[37mGET /api/v1.0/image_codes/5a83e028-f076-4e73-a0ef-392b721fa772 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:48:32] "[37mGET /register.html HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:48:32] "[37mGET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:48:32] "[37mGET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:48:32] "[37mGET /static/css/reset.css HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:48:32] "[37mGET /static/css/ihome/main.css HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:48:32] "[37mGET /static/css/ihome/register.css HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:48:32] "[37mGET /static/js/jquery.min.js HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:48:32] "[37mGET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:48:32] "[37mGET /static/js/ihome/register.js HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:48:32] "[37mGET /static/images/logo@128x59.png HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:48:33] "[37mGET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:48:33] "[37mGET /api/v1.0/image_codes/061d33d0-b6ad-494c-85ec-a752887958ab HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:48:33] "[37mGET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:48:34] "[37mGET /api/v1.0/image_codes/2e0568fc-06a8-4e99-968a-1648806b3edf HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:48:35] "[37mGET /api/v1.0/image_codes/4567d99d-d41e-4b63-81b1-9ec2de293739 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Nov/2019 23:48:35] "[37mGET /api/v1.0/image_codes/11a61af9-8158-4d12-a1c6-655d776cf181 HTTP/1.1[0m" 200 -
