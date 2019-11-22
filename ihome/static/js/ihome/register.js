@@ -31,31 +31,29 @@ function generateImageCode() {
 function sendSMSCode() {
     $(".phonecode-a").removeAttr("onclick");
     var mobile = $("#mobile").val();
-    if (!mobile) {
+    var mobileReg=/^[1][3,4,5,7,8][0-9]{9}$/;
+    if (!mobileReg.test(mobile)) {
         $("#mobile-err span").html("请填写正确的手机号！");
         $("#mobile-err").show();
         $(".phonecode-a").attr("onclick", "sendSMSCode();");
         return;
     } 
     var imageCode = $("#imagecode").val();
-    if (!imageCode) {
-        $("#image-code-err span").html("请填写验证码！");
+    if (!imageCode || imageCode.length != 4) {
+        $("#image-code-err span").html("请填写正确验证码！");
         $("#image-code-err").show();
         $(".phonecode-a").attr("onclick", "sendSMSCode();");
         return;
     }
-    $.get("/api/smscode", {mobile:mobile, code:imageCode, codeId:imageCodeId}, 
+    var req_data = {
+        "image_code":imageCode,  // 图片验证码值
+        "image_code_id":imageCodeId  // 验证码编号
+    }
+    $.get("/api/v1.0/sms_codes/" + mobile, req_data, 
         function(data){
-            if (0 != data.errno) {
-                $("#image-code-err span").html(data.errmsg); 
-                $("#image-code-err").show();
-                if (2 == data.errno || 3 == data.errno) {
-                    generateImageCode();
-                }
-                $(".phonecode-a").attr("onclick", "sendSMSCode();");
-            }   
-            else {
+            if ('0' == data.errno) {
                 var $time = $(".phonecode-a");
+                generateImageCode();  // 刷新验证码
                 var duration = 60;
                 var intervalid = setInterval(function(){
                     $time.html(duration + "秒"); 
@@ -67,6 +65,14 @@ function sendSMSCode() {
                     duration = duration - 1;
                 }, 1000, 60); 
             }
+            else {
+                $("#image-code-err span").html(data.errmsg); 
+                $("#image-code-err").show();
+                if ('4004' == data.errno || '4201' == data.errno || '4003' == data.errno || '4301' == data.errno) {
+                    generateImageCode();  // 刷新验证码
+                }
+                $(".phonecode-a").attr("onclick", "sendSMSCode();");
+            }   
     }, 'json'); 
 }
 
