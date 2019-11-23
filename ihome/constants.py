@@ -14,3 +14,9 @@ SMS_CODE_REDIS_EXPIRES = 300
 
 # 发送短信验证码间隔  单位 秒
 SEND_SMS_CODE_INTERVEL = 60
+
+# 限制ip登录错误次数
+LOGIN_ERROR_MAX_TIMES = 5
+
+# 登录错误限制时间 单位: 秒
+LOGIN_ERROR_FORBID_TIME = 600

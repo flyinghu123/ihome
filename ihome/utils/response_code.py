@@ -20,6 +20,7 @@ class RET:
     SERVERERR           = "4500"
     UNKOWNERR           = "4501"
 
+
 error_map = {
     RET.OK                    : u"成功",
     RET.DBERR                 : u"数据库查询错误",

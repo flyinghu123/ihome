@@ -9,9 +9,9 @@ from . import api
 from flask import request, jsonify, current_app, session
 from ihome.utils.response_code import RET
 import re
-from ihome import redis_store, db
+from ihome import redis_store, db, constants
 from ihome.models import User
-from werkzeug.security import generate_password_hash, check_password_hash
+from werkzeug.security import check_password_hash
 from sqlalchemy.exc import IntegrityError
 
 
@@ -104,3 +104,110 @@ def register():
 
     # 4.返回结果
     return jsonify(errno=RET.OK, errmsg='注册成功')
+
+
+@api.route('/sessions', methods=['POST'])
+def login():
+    '''用户登录
+    Args:
+        手机号, 密码
+    '''
+    # 1.获取参数
+    req_dict = request.json
+    mobile = req_dict.get('mobile')
+    password = req_dict.get('password')
+    image_code = req_dict.get('image_code')
+    image_code_id = req_dict.get('image_code_id')
+
+    # 2.校验参数
+    # 参数完整性校验
+    if not all([mobile, password, image_code, image_code_id]):
+        # 参数不完整
+        return jsonify(errno=RET.PARAMERR, errmsg='params not complete')
+
+    # 手机号格式
+    if re.match(r'1[34578]\d{9}', mobile) is None:
+        # 表示手机号格式错误
+        return jsonify(errno=RET.PARAMERR, errmsg='手机号格式错误')
+
+    # 3.业务逻辑处理
+    # 从redis取出真实的图片验证码
+    try:
+        real_image_code = redis_store.get('image_code_%s' % image_code_id)
+    except Exception as e:
+        current_app.logger.error(e)
+        return jsonify(errno=RET.DBERR, errmsg='redis数据库异常')
+
+    # 判断图片验证码是否过期
+    if real_image_code is None:
+        # 表示图片验证码没有或者过期
+        return jsonify(errno=RET.NODATA, errmsg='图片验证码失效')
+
+    # 删除redis中图片验证码  防止用一个验证码被多次使用
+    try:
+        redis_store.delete('image_code_%s' % image_code_id)
+    except Exception as e:
+        current_app.logger.error(e)
+
+    # 与用户填写进行对比
+    if real_image_code.lower() != image_code.lower():
+        # 表示用户填写错误
+        return jsonify(errno=RET.DATAERR, errmsg='图片验证码填写错误')
+
+    # 判断错误次数是否超过次数限制, 如果超过限制则返回
+    # redis记录: 'access_nums_请求的ip': 次数
+    user_ip = request.remote_addr  # 用户ip
+    try:
+        access_nums = redis_store.get('access_nums_%s' % user_ip)
+    except Exception as e:
+        current_app.logger.error(e)
+    else:
+        if access_nums and int(access_nums) >= constants.LOGIN_ERROR_MAX_TIMES:
+            return jsonify(errno=RET.REQERR, errmsg='登录错误次数过多, 请稍后重试')
+
+    # 从数据库中根据手机号查询用户的数据对象
+    try:
+        user = User.query.filter_by(mobile=mobile).first()
+    except Exception as e:
+        current_app.logger.error(e)
+        return jsonify(errno=RET.DBERR, errmsg='获取用户信息失败')
+
+    # 用数据库中的密码与用户填写密码进行对比校验
+    if user is None or not user.check_password(password):
+        # 表示用户不存在, 或者用户密码校验错误
+        # 如果验证失败, 记录错误次数, 返回错误信息
+        try:
+            redis_store.incr('access_nums_%s' % user_ip)
+            redis_store.expire('access_nums_%s' % user_ip, constants.LOGIN_ERROR_FORBID_TIME)
+        except Exception as e:
+            current_app.logger.error(e)
+
+        return jsonify(errno=RET.DATAERR, errmsg='用户或者密码错误')
+    # 如果验证成功, 保存登录状态, 保存session中
+    session['name'] = user.name
+    session['mobile'] = user.mobile
+    session['user_id'] = user.id
+    # 4.返回结果
+    return jsonify(errno=RET.OK, errmsg='登录成功')
+
+
+@api.route('/session', methods=['GET'])
+def check_login():
+    '''检查登陆转态'''
+    # 尝试从session中获取用户的名字
+    name = session.get('name')
+    # 如果session中存在name表示已登录, 否则未登录
+    if name:
+        # 表示登录了
+        return jsonify(errno=RET.OK, errmsg='true', data={'name': name})
+    else:
+        # 表示未登录
+        return jsonify(errno=RET.SESSIONERR, errmsg='false')
+
+
+@api.route('/session', methods=['DELETE'])
+def logout():
+    '''登出'''
+    # 清除session数据
+    session.clear()
+    return jsonify(errno=RET.OK, errmsg='OK')

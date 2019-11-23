@@ -149,7 +149,7 @@ $(document).ready(function() {
                 if (resp.errno == '0') {
                     //注册成功跳转主页
                     location.href = '/index.html';
-                } else if (resp.errno == '4103') {
+                } else {
                     alert(resp.errmsg);
                 }
             }

@@ -54,3 +54,10 @@ body {
 .error-msg i {
     margin-right: 5px;
 }
+.image-code {
+    padding: 0;
+}
+.image-code img{
+    width: 90px;
+    height: 41px;
+}
