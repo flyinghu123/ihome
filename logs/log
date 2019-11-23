@@ -776,3 +776,378 @@ INFO _internal.py:122 127.0.0.1 - - [22/Nov/2019 23:22:02] "[37mGET /api/v1.0/s
 INFO _internal.py:122 127.0.0.1 - - [22/Nov/2019 23:22:02] "[37mGET /api/v1.0/image_codes/af2c41f6-054d-4b65-be1d-a7f085f7f3dc HTTP/1.1[0m" 200 -
 INFO _internal.py:122 127.0.0.1 - - [22/Nov/2019 23:22:07] "[37mGET /api/v1.0/sms_codes/18579091509?image_code=mvkk&image_code_id=af2c41f6-054d-4b65-be1d-a7f085f7f3dc HTTP/1.1[0m" 200 -
 INFO _internal.py:122 127.0.0.1 - - [22/Nov/2019 23:22:07] "[37mGET /api/v1.0/image_codes/14952b5f-4ac1-4cb2-991d-b99589ab7cc5 HTTP/1.1[0m" 200 -
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 783-899-693
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 11:12:01] "[36mGET /register.html HTTP/1.1[0m" 304 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 11:12:01] "[37mGET /api/v1.0/image_codes/4ac091bc-c71b-4829-952a-7068443a4a13 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 11:12:01] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 11:12:07] "[37mGET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 11:12:24] "[37mGET /register.html HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 11:12:24] "[37mGET /api/v1.0/sms_codes/18579091509?image_code=957a&image_code_id=4ac091bc-c71b-4829-952a-7068443a4a13 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 11:12:24] "[37mGET /api/v1.0/image_codes/9444dd35-ff5a-45ae-8b92-11ee0ddd6d79 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 11:12:24] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 11:12:57] "[37mGET /api/v1.0/sms_codes/18579091509?image_code=0det&image_code_id=9444dd35-ff5a-45ae-8b92-11ee0ddd6d79 HTTP/1.1[0m" 200 -
+INFO _internal.py:122  * Detected change in 'D:\\QQPCmgr\\Desktop\\°®¼Ò×â·¿\\ihome\\web_html.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 783-899-693
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 11:13:39] "[37mGET /api/v1.0/image_codes/00364bee-3d39-4b2d-a2a6-bdb7f8dc1d61 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 11:13:46] "[37mGET /api/v1.0/sms_codes/18579091509?image_code=ry02&image_code_id=00364bee-3d39-4b2d-a2a6-bdb7f8dc1d61 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 11:13:46] "[37mGET /api/v1.0/image_codes/b133b6d6-ac46-4769-967a-e2f972e0885b HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 11:13:53] "[37mGET /api/v1.0/sms_codes/18579091509?image_code=a5dt&image_code_id=b133b6d6-ac46-4769-967a-e2f972e0885b HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 11:13:53] "[37mGET /api/v1.0/image_codes/dd26cbb4-a0d2-400d-b3fe-86416acae010 HTTP/1.1[0m" 200 -
+INFO _internal.py:122  * Detected change in 'D:\\QQPCmgr\\Desktop\\°®¼Ò×â·¿\\ihome\\__init__.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 783-899-693
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 11:14:21] "[37mGET /api/v1.0/sms_codes/18579091509?image_code=wojn&image_code_id=dd26cbb4-a0d2-400d-b3fe-86416acae010 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 11:14:21] "[37mGET /api/v1.0/image_codes/158eb3da-f33d-40d8-89b0-e248b373e212 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 11:14:26] "[37mGET /api/v1.0/sms_codes/18579091509?image_code=gk3g&image_code_id=158eb3da-f33d-40d8-89b0-e248b373e212 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 11:14:26] "[37mGET /api/v1.0/image_codes/975ee2d3-3a20-4630-a7e5-b34c3a169f98 HTTP/1.1[0m" 200 -
+INFO _internal.py:122  * Detected change in 'D:\\QQPCmgr\\Desktop\\°®¼Ò×â·¿\\ihome\\__init__.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 783-899-693
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 11:14:35] "[37mGET /api/v1.0/sms_codes/18579091509?image_code=vxhf&image_code_id=975ee2d3-3a20-4630-a7e5-b34c3a169f98 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 11:14:35] "[37mGET /api/v1.0/image_codes/f7947e52-37a5-4008-8ec4-d4128fc8b2ae HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 11:14:46] "[37mGET /api/v1.0/sms_codes/18579091508?image_code=djno&image_code_id=f7947e52-37a5-4008-8ec4-d4128fc8b2ae HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 11:14:46] "[37mGET /api/v1.0/image_codes/1df97268-cd1d-41e4-8256-a8a5a59b1edd HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 11:14:52] "[37mGET /api/v1.0/sms_codes/18579091508?image_code=scbi&image_code_id=1df97268-cd1d-41e4-8256-a8a5a59b1edd HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 11:15:39] "[36mGET /register.html HTTP/1.1[0m" 304 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 11:15:39] "[37mGET /api/v1.0/image_codes/af5ea896-bd26-4708-a542-de2b40430f79 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 11:15:39] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+INFO _internal.py:122  * Detected change in 'D:\\QQPCmgr\\Desktop\\°®¼Ò×â·¿\\ihome\\api_1_0\\passport.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 783-899-693
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122  * Detected change in 'D:\\QQPCmgr\\Desktop\\°®¼Ò×â·¿\\ihome\\api_1_0\\passport.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 783-899-693
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122  * Detected change in 'D:\\QQPCmgr\\Desktop\\°®¼Ò×â·¿\\ihome\\api_1_0\\passport.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 783-899-693
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122  * Detected change in 'D:\\QQPCmgr\\Desktop\\°®¼Ò×â·¿\\ihome\\api_1_0\\passport.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 783-899-693
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122  * Detected change in 'D:\\QQPCmgr\\Desktop\\°®¼Ò×â·¿\\ihome\\api_1_0\\passport.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 783-899-693
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:15:23] "[37mGET /api/v1.0/sms_codes/18579091509?image_code=nxyn&image_code_id=af5ea896-bd26-4708-a542-de2b40430f79 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:15:26] "[37mGET /api/v1.0/image_codes/aa1cb585-161b-4086-ba64-1e8dfc5c738d HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:15:41] "[37mGET /api/v1.0/sms_codes/18579091509?image_code=hlwy&image_code_id=aa1cb585-161b-4086-ba64-1e8dfc5c738d HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:15:41] "[37mGET /api/v1.0/image_codes/fbfc94fc-29f6-4b5f-a1a0-c680fd67fb01 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:15:54] "[37mGET /api/v1.0/sms_codes/18579091509?image_code=jk9i&image_code_id=fbfc94fc-29f6-4b5f-a1a0-c680fd67fb01 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:15:54] "[37mGET /api/v1.0/image_codes/5468b638-38e4-4b94-be4c-6561416d8c47 HTTP/1.1[0m" 200 -
+INFO _internal.py:122  * Detected change in 'D:\\QQPCmgr\\Desktop\\°®¼Ò×â·¿\\ihome\\api_1_0\\passport.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 783-899-693
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:19:03] "[1m[31mPOST /api/v1.0/users?sms_code=558931&mobile=18579091509&password=1152598046&password2=1152598046 HTTP/1.1[0m" 400 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:19:58] "[1m[31mPOST /api/v1.0/users?password2=1152598046 HTTP/1.1[0m" 400 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:20:07] "[1m[31mPOST /api/v1.0/users HTTP/1.1[0m" 400 -
+INFO _internal.py:122  * Detected change in 'D:\\QQPCmgr\\Desktop\\°®¼Ò×â·¿\\ihome\\models.py', reloading
+INFO _internal.py:122  * Restarting with stat
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 783-899-693
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:20:49] "[1m[31mPOST /api/v1.0/users HTTP/1.1[0m" 400 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:22:16] "[1m[31mPOST /api/v1.0/users HTTP/1.1[0m" 400 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:23:56] "[36mGET /register.html HTTP/1.1[0m" 304 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:23:56] "[36mGET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:23:56] "[36mGET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:23:56] "[36mGET /static/css/reset.css HTTP/1.1[0m" 304 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:23:56] "[36mGET /static/css/ihome/main.css HTTP/1.1[0m" 304 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:23:56] "[36mGET /static/css/ihome/register.css HTTP/1.1[0m" 304 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:23:56] "[36mGET /static/js/jquery.min.js HTTP/1.1[0m" 304 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:23:56] "[36mGET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:23:56] "[37mGET /static/js/ihome/register.js HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:23:57] "[36mGET /static/images/logo@128x59.png HTTP/1.1[0m" 304 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:23:57] "[36mGET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1[0m" 304 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:23:57] "[37mGET /api/v1.0/image_codes/e6ce3d77-235e-45e1-a9b1-35ac11354ff5 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:23:57] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:24:02] "[1m[31mPOST /api/v1.0/users HTTP/1.1[0m" 400 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:24:19] "[37mGET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:24:22] "[37mGET /register.html HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:24:22] "[37mGET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:24:22] "[37mGET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:24:22] "[37mGET /static/css/reset.css HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:24:22] "[37mGET /static/css/ihome/main.css HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:24:22] "[37mGET /static/css/ihome/register.css HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:24:22] "[37mGET /static/js/jquery.min.js HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:24:22] "[37mGET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:24:22] "[37mGET /static/js/ihome/register.js HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:24:22] "[37mGET /static/images/logo@128x59.png HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:24:22] "[37mGET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:24:22] "[37mGET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:24:22] "[37mGET /api/v1.0/image_codes/4b2d9e55-f1d7-4289-9f6a-62d7bd717675 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:24:22] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:24:44] "[37mGET /register.html HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:24:44] "[37mGET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:24:44] "[37mGET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:24:44] "[37mGET /static/css/reset.css HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:24:44] "[37mGET /static/css/ihome/main.css HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:24:44] "[37mGET /static/css/ihome/register.css HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:24:44] "[37mGET /static/js/jquery.min.js HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:24:44] "[37mGET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:24:44] "[37mGET /static/js/ihome/register.js HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:24:44] "[37mGET /static/images/logo@128x59.png HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:24:44] "[37mGET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:24:44] "[37mGET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:24:44] "[37mGET /api/v1.0/image_codes/bbf44996-61f2-4eac-8a00-b54a118b4006 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:24:44] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:24:57] "[37mGET /api/v1.0/sms_codes/18579091509?image_code=w4kg&image_code_id=bbf44996-61f2-4eac-8a00-b54a118b4006 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:24:57] "[37mGET /api/v1.0/image_codes/c1336a28-91f9-44dc-aa7f-55241d521e9b HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:26:02] "[1m[31mPOST /api/v1.0/users HTTP/1.1[0m" 400 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:26:48] "[1m[31mPOST /api/v1.0/users HTTP/1.1[0m" 400 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:26:56] "[1m[31mPOST /api/v1.0/users HTTP/1.1[0m" 400 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:27:09] "[1m[31mPOST /api/v1.0/users HTTP/1.1[0m" 400 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:27:16] "[1m[31mPOST /api/v1.0/users HTTP/1.1[0m" 400 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:27:34] "[1m[31mPOST /api/v1.0/users HTTP/1.1[0m" 400 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:27:38] "[1m[31mPOST /api/v1.0/users HTTP/1.1[0m" 400 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:27:39] "[1m[31mPOST /api/v1.0/users HTTP/1.1[0m" 400 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:27:53] "[1m[31mPOST /api/v1.0/users HTTP/1.1[0m" 400 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:27:54] "[1m[31mPOST /api/v1.0/users HTTP/1.1[0m" 400 -
+INFO _internal.py:122  * Detected change in 'D:\\QQPCmgr\\Desktop\\°®¼Ò×â·¿\\ihome\\__init__.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 783-899-693
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:28:15] "[1m[31mPOST /api/v1.0/users HTTP/1.1[0m" 400 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:28:33] "[1m[31mPOST /api/v1.0/users HTTP/1.1[0m" 400 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:28:36] "[1m[35mPOST /api/v1.0/users HTTP/1.1[0m" 500 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:29:37] "[1m[35mPOST /api/v1.0/users HTTP/1.1[0m" 500 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:29:52] "[1m[35mPOST /api/v1.0/users HTTP/1.1[0m" 500 -
+INFO _internal.py:122  * Detected change in 'D:\\QQPCmgr\\Desktop\\°®¼Ò×â·¿\\ihome\\api_1_0\\passport.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 783-899-693
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 783-899-693
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:30:56] "[1m[35mPOST /api/v1.0/users HTTP/1.1[0m" 500 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:31:01] "[1m[35mPOST /api/v1.0/users HTTP/1.1[0m" 500 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:31:22] "[1m[35mPOST /api/v1.0/users HTTP/1.1[0m" 500 -
+INFO _internal.py:122  * Detected change in 'D:\\QQPCmgr\\Desktop\\°®¼Ò×â·¿\\ihome\\api_1_0\\passport.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 783-899-693
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:31:37] "[37mPOST /api/v1.0/users HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:32:06] "[37mGET /register.html HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:32:06] "[37mGET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:32:06] "[37mGET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:32:06] "[37mGET /static/css/reset.css HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:32:06] "[37mGET /static/css/ihome/main.css HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:32:06] "[37mGET /static/css/ihome/register.css HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:32:06] "[37mGET /static/images/logo@128x59.png HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:32:06] "[37mGET /static/js/jquery.min.js HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:32:06] "[37mGET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:32:06] "[37mGET /static/js/ihome/register.js HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:32:06] "[37mGET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:32:06] "[37mGET /api/v1.0/image_codes/2769077d-81d4-468f-95d0-5fffb5fe9071 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:32:06] "[37mGET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:32:06] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:32:33] "[37mGET /api/v1.0/sms_codes/18579091509?image_code=qGWm&image_code_id=2769077d-81d4-468f-95d0-5fffb5fe9071 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:32:33] "[37mGET /api/v1.0/image_codes/8446655f-eb35-4689-be94-40def19a49b5 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:32:49] "[37mPOST /api/v1.0/users HTTP/1.1[0m" 200 -
+INFO _internal.py:122  * Detected change in 'D:\\QQPCmgr\\Desktop\\°®¼Ò×â·¿\\ihome\\__init__.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 783-899-693
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122  * Detected change in 'D:\\QQPCmgr\\Desktop\\°®¼Ò×â·¿\\ihome\\__init__.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 783-899-693
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:33:28] "[37mGET /register.html HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:33:28] "[37mGET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:33:28] "[37mGET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:33:28] "[37mGET /static/css/reset.css HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:33:28] "[37mGET /static/css/ihome/main.css HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:33:28] "[37mGET /static/css/ihome/register.css HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:33:28] "[37mGET /static/images/logo@128x59.png HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:33:29] "[37mGET /static/js/jquery.min.js HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:33:29] "[37mGET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:33:29] "[37mGET /static/js/ihome/register.js HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:33:29] "[37mGET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:33:29] "[37mGET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:33:29] "[37mGET /api/v1.0/image_codes/8432f374-b2eb-4254-be9e-aeeb32826ec0 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:33:29] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:33:39] "[37mGET /api/v1.0/sms_codes/18579091509?image_code=jhz6&image_code_id=8432f374-b2eb-4254-be9e-aeeb32826ec0 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:33:39] "[37mGET /api/v1.0/image_codes/44cc3b6b-eb25-42b5-bf6d-643226d207da HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:33:51] "[37mGET /api/v1.0/sms_codes/18579091510?image_code=vszh&image_code_id=44cc3b6b-eb25-42b5-bf6d-643226d207da HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:33:51] "[37mGET /api/v1.0/image_codes/f38aa19b-a04d-4eaa-abff-08a6227e357e HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:34:42] "[1m[31mPOST /api/v1.0/users HTTP/1.1[0m" 400 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:35:46] "[1m[31mPOST /api/v1.0/users HTTP/1.1[0m" 400 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:37:07] "[1m[31mPOST /api/v1.0/users HTTP/1.1[0m" 400 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:37:30] "[1m[31mPOST /api/v1.0/users HTTP/1.1[0m" 400 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:37:42] "[1m[31mPOST /api/v1.0/users HTTP/1.1[0m" 400 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:38:51] "[1m[31mPOST /api/v1.0/users HTTP/1.1[0m" 400 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:40:51] "[1m[31mPOST /api/v1.0/users HTTP/1.1[0m" 400 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:41:08] "[1m[31mPOST /register HTTP/1.1[0m" 405 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:41:31] "[1m[31mPOST /register HTTP/1.1[0m" 405 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:42:39] "[37mPOST /api/v1.0/users HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:43:44] "[37mGET /api/v1.0/sms_codes/18579091510?image_code=ntmw&image_code_id=f38aa19b-a04d-4eaa-abff-08a6227e357e HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:43:46] "[37mGET /api/v1.0/image_codes/1db66dd4-d77d-4696-afd4-0a49895892cd HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:43:50] "[37mGET /api/v1.0/sms_codes/18579091510?image_code=lbde&image_code_id=1db66dd4-d77d-4696-afd4-0a49895892cd HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:43:50] "[37mGET /api/v1.0/image_codes/72e8f050-8eaf-4173-9d2d-bb7aba8cb6c5 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 12:44:12] "[37mPOST /api/v1.0/users HTTP/1.1[0m" 200 -
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 783-899-693
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:30:27] "[37mGET /register.html HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:30:27] "[37mGET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:30:27] "[37mGET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:30:27] "[37mGET /static/css/reset.css HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:30:27] "[37mGET /static/css/ihome/main.css HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:30:27] "[37mGET /static/css/ihome/register.css HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:30:27] "[37mGET /static/images/logo@128x59.png HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:30:27] "[37mGET /static/js/jquery.min.js HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:30:27] "[37mGET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:30:27] "[37mGET /static/js/ihome/register.js HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:30:27] "[37mGET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:30:27] "[37mGET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:30:27] "[37mGET /api/v1.0/image_codes/5fbd3331-d9ec-4352-bbdf-1a590bb92dad HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:30:27] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:30:38] "[37mGET /api/v1.0/sms_codes/18579091507?image_code=jofq&image_code_id=5fbd3331-d9ec-4352-bbdf-1a590bb92dad HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:30:38] "[37mGET /api/v1.0/image_codes/ddfaa62e-a6ba-4683-a478-18ee26d33b3e HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:30:44] "[37mGET /api/v1.0/sms_codes/18579091507?image_code=shvb&image_code_id=ddfaa62e-a6ba-4683-a478-18ee26d33b3e HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:30:44] "[37mGET /api/v1.0/image_codes/071e6369-bade-41a7-89bd-fb385b6120b9 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:31:46] "[37mGET /register.html HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:31:46] "[37mGET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:31:46] "[37mGET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:31:46] "[37mGET /static/css/reset.css HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:31:46] "[37mGET /static/css/ihome/main.css HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:31:46] "[37mGET /static/css/ihome/register.css HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:31:46] "[37mGET /static/js/jquery.min.js HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:31:47] "[37mGET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:31:47] "[37mGET /static/js/ihome/register.js HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:31:47] "[37mGET /static/images/logo@128x59.png HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:31:47] "[37mGET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:31:47] "[37mGET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:31:47] "[37mGET /api/v1.0/image_codes/bc2956d6-7f81-4adb-bcf1-9743ebb3cc96 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:31:47] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:31:59] "[37mGET /api/v1.0/sms_codes/18579091506?image_code=z1xz&image_code_id=bc2956d6-7f81-4adb-bcf1-9743ebb3cc96 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:31:59] "[37mGET /api/v1.0/image_codes/c75f9bae-bc67-4e77-8fac-cd9fc3885587 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:32:05] "[37mGET /api/v1.0/sms_codes/18579091506?image_code=jp8n&image_code_id=c75f9bae-bc67-4e77-8fac-cd9fc3885587 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:32:05] "[37mGET /api/v1.0/image_codes/d1fd1923-0cdd-4592-9cda-474856e2797a HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:32:28] "[1m[31mPOST /api/v1.0/users HTTP/1.1[0m" 400 -
+INFO _internal.py:122  * Detected change in 'D:\\QQPCmgr\\Desktop\\°®¼Ò×â·¿\\ihome\\__init__.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 783-899-693
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:34:08] "[37mPOST /api/v1.0/users HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:34:57] "[37mGET /register.html HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:34:57] "[37mGET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:34:57] "[37mGET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:34:57] "[37mGET /static/css/reset.css HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:34:57] "[37mGET /static/css/ihome/main.css HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:34:57] "[37mGET /static/css/ihome/register.css HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:34:57] "[37mGET /static/images/logo@128x59.png HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:34:57] "[37mGET /static/js/jquery.min.js HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:34:57] "[37mGET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:34:57] "[37mGET /static/js/ihome/register.js HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:34:57] "[37mGET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:34:58] "[37mGET /api/v1.0/image_codes/55b5e6c4-1212-48b0-8110-938fb972c0cd HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:34:58] "[37mGET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:34:58] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:35:10] "[37mGET /api/v1.0/sms_codes/18579091505?image_code=ti5s&image_code_id=55b5e6c4-1212-48b0-8110-938fb972c0cd HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:35:10] "[37mGET /api/v1.0/image_codes/4eb6ee72-829e-4bf4-957f-702595a32f1e HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:35:17] "[37mGET /api/v1.0/sms_codes/18579091505?image_code=d4sy&image_code_id=4eb6ee72-829e-4bf4-957f-702595a32f1e HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:35:17] "[37mGET /api/v1.0/image_codes/d1a24749-3d13-4c5e-80ed-6a69b3153a42 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:35:42] "[37mPOST /api/v1.0/users HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:35:43] "[37mGET /index.html HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:35:43] "[37mGET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:35:43] "[37mGET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:35:43] "[37mGET /static/css/reset.css HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:35:43] "[37mGET /static/plugins/swiper/css/swiper.min.css HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:35:43] "[37mGET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:35:43] "[37mGET /static/css/ihome/main.css HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:35:43] "[37mGET /static/css/ihome/index.css HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:35:43] "[37mGET /static/js/jquery.min.js HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:35:43] "[37mGET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:35:43] "[37mGET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:35:43] "[37mGET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:35:43] "[37mGET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:35:43] "[37mGET /static/js/template.js HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:35:43] "[37mGET /static/js/ihome/index.js HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:35:43] "[37mGET /static/images/logo@128x59.png HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:35:43] "[37mGET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:35:43] "[37mGET /static/images/home01.jpg HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:35:43] "[37mGET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:35:43] "[37mGET /static/images/home02.jpg HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:35:43] "[37mGET /static/images/home03.jpg HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:35:43] "[33mGET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1[0m" 404 -
+INFO _internal.py:122  * Detected change in 'D:\\QQPCmgr\\Desktop\\°®¼Ò×â·¿\\ihome\\__init__.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 783-899-693
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 783-899-693
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:45:30] "[37mGET /register.html HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:45:30] "[37mGET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:45:30] "[37mGET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:45:30] "[37mGET /static/css/reset.css HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:45:30] "[37mGET /static/css/ihome/main.css HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:45:30] "[37mGET /static/css/ihome/register.css HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:45:30] "[37mGET /static/js/jquery.min.js HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:45:30] "[37mGET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:45:30] "[37mGET /static/js/ihome/register.js HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:45:30] "[37mGET /static/images/logo@128x59.png HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:45:30] "[37mGET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:45:30] "[37mGET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:45:30] "[37mGET /api/v1.0/image_codes/556053ca-f1cf-434c-9644-98d067b34c32 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:45:49] "[37mGET /api/v1.0/sms_codes/18579091500?image_code=amnp&image_code_id=556053ca-f1cf-434c-9644-98d067b34c32 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:45:49] "[37mGET /api/v1.0/image_codes/6a86e318-caaa-4d17-8830-7a3985a84122 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:46:23] "[37mPOST /api/v1.0/users HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:46:23] "[37mGET /index.html HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:46:24] "[37mGET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:46:24] "[37mGET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:46:24] "[37mGET /static/css/reset.css HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:46:24] "[37mGET /static/plugins/swiper/css/swiper.min.css HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:46:24] "[37mGET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:46:24] "[37mGET /static/css/ihome/main.css HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:46:24] "[37mGET /static/css/ihome/index.css HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:46:24] "[37mGET /static/js/jquery.min.js HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:46:24] "[37mGET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:46:24] "[37mGET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:46:24] "[37mGET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:46:24] "[37mGET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:46:24] "[37mGET /static/js/template.js HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:46:24] "[37mGET /static/js/ihome/index.js HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:46:24] "[37mGET /static/images/logo@128x59.png HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:46:24] "[37mGET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:46:24] "[37mGET /static/images/home01.jpg HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:46:24] "[37mGET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:46:24] "[37mGET /static/images/home02.jpg HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:46:24] "[37mGET /static/images/home03.jpg HTTP/1.1[0m" 200 -
+INFO _internal.py:122 127.0.0.1 - - [23/Nov/2019 13:46:24] "[33mGET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1[0m" 404 -
+INFO _internal.py:122  * Detected change in 'D:\\QQPCmgr\\Desktop\\°®¼Ò×â·¿\\ihome\\__init__.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 783-899-693
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)

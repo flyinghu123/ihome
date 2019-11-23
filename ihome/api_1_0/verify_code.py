@@ -60,7 +60,7 @@ def get_sms_code(mobile):
         return jsonify(errno=RET.PARAMERR, errmsg='params not complete')
 
     # 3.业务逻辑处理
-    # 从redis去除真实的图片验证码
+    # 从redis取出真实的图片验证码
     try:
         real_image_code = redis_store.get('image_code_%s' % image_code_id)
     except Exception as e:
@@ -79,9 +79,8 @@ def get_sms_code(mobile):
         current_app.logger.error(e)
 
     # 与用户填写进行对比
-    if real_image_code.decode().lower() != image_code.lower():
+    if real_image_code.lower() != image_code.lower():
         # 表示用户填写错误
-        print(str(real_image_code).lower(), image_code.lower())
         return jsonify(errno=RET.DATAERR, errmsg='图片验证码填写错误')
 
     # 判断对同一个手机号是否在60秒内有操作记录, 如果有判断用户操作频繁, 不接受处理

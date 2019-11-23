@@ -15,7 +15,6 @@ html = Blueprint('web_html', __name__)
 @html.route("/<re(r'.*'):html_file_name>")
 def get_html(html_file_name):
     '''提供html文件'''
-    print(html_file_name)
     # 如果file_file_name为‘’， 表示访问的为/ ，请求的是主页
     if not html_file_name:
         html_file_name = 'index.html'

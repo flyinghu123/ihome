@@ -53,7 +53,7 @@ function sendSMSCode() {
         function(data){
             if ('0' == data.errno) {
                 var $time = $(".phonecode-a");
-                generateImageCode();  // 刷新验证码
+                // generateImageCode();  // 刷新验证码
                 var duration = 60;
                 var intervalid = setInterval(function(){
                     $time.html(duration + "秒"); 
@@ -94,18 +94,24 @@ $(document).ready(function() {
     $("#password2").focus(function(){
         $("#password2-err").hide();
     });
+
+    //为表单提交补充自定义函数行为 (事件)
     $(".form-register").submit(function(e){
+        //阻止浏览器对于表单的默认提交行为
         e.preventDefault();
-        mobile = $("#mobile").val();
-        phoneCode = $("#phonecode").val();
-        passwd = $("#password").val();
-        passwd2 = $("#password2").val();
-        if (!mobile) {
+
+        //自定义提交行为
+        var mobile = $("#mobile").val();
+        var phoneCode = $("#phonecode").val();
+        var passwd = $("#password").val();
+        var passwd2 = $("#password2").val();
+        var mobileReg=/^[1][3,4,5,7,8][0-9]{9}$/;
+        if (!mobileReg.test(mobile)) {
             $("#mobile-err span").html("请填写正确的手机号！");
             $("#mobile-err").show();
             return;
         } 
-        if (!phoneCode) {
+        if (phoneCode.length != 6) {
             $("#phone-code-err span").html("请填写短信验证码！");
             $("#phone-code-err").show();
             return;
@@ -120,5 +126,33 @@ $(document).ready(function() {
             $("#password2-err").show();
             return;
         }
+
+        //构造请求数据
+        var req_data = {
+            'mobile': mobile,
+            'sms_code': phoneCode,
+            'password': passwd,
+            'password2': passwd2
+        }
+        var req_json = JSON.stringify(req_data);
+
+        $.ajax({
+            url: '/api/v1.0/users',
+            type: 'POST',
+            dataType: 'json',
+            data: req_json,
+            contentType: 'application/json',
+            headers: {
+                'X-CSRFToken': getCookie("csrf_token")
+            },  //请求头, 将csrf_token值放到请求头中, 方便后端csrf进行验证
+            success: function (resp) {
+                if (resp.errno == '0') {
+                    //注册成功跳转主页
+                    location.href = '/index.html';
+                } else if (resp.errno == '4103') {
+                    alert(resp.errmsg);
+                }
+            }
+        })
     });
 })
