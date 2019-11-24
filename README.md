@@ -20,3 +20,22 @@ python manage.py runserver -h 运行ip地址 -p 运行端口
 
 使用容联云第三方短信平台
 
+### 依赖
+
+captcha==0.3
+
+cos-python-sdk-v5==1.7.5
+
+Flask==0.10.1
+Flask-Login==0.4.1
+Flask-Migrate==2.5.2
+Flask-Script==2.0.6
+Flask-Session==0.3.1
+Flask-SQLAlchemy==2.4.0
+Flask-WTF==0.14.2
+
+PyMySQL==0.9.3
+
+redis==3.3.11
+
+SQLAlchemy==1.3.8

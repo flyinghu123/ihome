@@ -11,7 +11,6 @@ from ihome.utils.response_code import RET
 import re
 from ihome import redis_store, db, constants
 from ihome.models import User
-from werkzeug.security import check_password_hash
 from sqlalchemy.exc import IntegrityError
 
 
